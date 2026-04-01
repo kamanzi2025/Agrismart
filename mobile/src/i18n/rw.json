@@ -1,0 +1,93 @@
+{
+  "common": {
+    "loading": "Gutegereza...",
+    "error": "Habaye ikosa",
+    "retry": "Ongera ugerageze",
+    "save": "Bika",
+    "cancel": "Guhagarika",
+    "back": "Gusubira",
+    "submit": "Ohereza",
+    "offline": "Nta interineti",
+    "syncing": "Guhuza amakuru..."
+  },
+  "auth": {
+    "login": "Injira",
+    "logout": "Sohoka",
+    "phone": "Numero ya telefoni",
+    "password": "Ijambo ryibanga",
+    "loginButton": "Injira",
+    "loginError": "Telefoni cyangwa ijambo ryibanga ntabwo ari ryo",
+    "welcome": "Murakaza neza kuri AgriSmart"
+  },
+  "home": {
+    "title": "Ahabanza",
+    "greeting": "Muraho, {{name}}",
+    "quickActions": "Ibikorwa byihuse",
+    "plantingAdvisory": "Inama zo gutera",
+    "pestDiagnosis": "Isuzuma ry'udukoko",
+    "finance": "Imari",
+    "soilManagement": "Imicungire y'ubutaka"
+  },
+  "pest": {
+    "title": "Isuzuma ry'udukoko",
+    "library": "Ububiko bw'udukoko",
+    "reportPest": "Raporo y'udukoko",
+    "takePhoto": "Fata ifoto",
+    "choosePhoto": "Hitamo ifoto",
+    "submitting": "Kohereza raporo...",
+    "submitted": "Raporo yoherejwe neza",
+    "myReports": "Raporo zanjye",
+    "status": {
+      "PENDING": "Irategerejwe",
+      "ANALYZED": "Yasuzumwe",
+      "RESOLVED": "Yarangiye"
+    },
+    "severity": {
+      "LOW": "Ngufi",
+      "MEDIUM": "Hagati",
+      "HIGH": "Nkuru",
+      "CRITICAL": "Birakomeye"
+    }
+  },
+  "finance": {
+    "title": "Imari",
+    "recordExpense": "Andika ibyasohotse",
+    "recordSale": "Andika amafaranga yakinguwe",
+    "summary": "Incamake y'imari",
+    "amount": "Amafaranga (RWF)",
+    "description": "Ibisobanuro",
+    "category": "Icyiciro",
+    "season": "Igihe",
+    "date": "Itariki",
+    "totalRevenue": "Amafaranga yose yakinguwe",
+    "totalExpenses": "Amafaranga yose yasohotse",
+    "netProfit": "Inyungu",
+    "categories": {
+      "SEEDS": "Imbuto",
+      "FERTILIZER": "Ifumbire",
+      "PESTICIDE": "Ubutwa",
+      "LABOR": "Akazi",
+      "TRANSPORT": "Gutwara",
+      "OTHER": "Ibindi"
+    }
+  },
+  "advisory": {
+    "title": "Inama",
+    "inbox": "Inbox y'inama",
+    "noAdvisories": "Nta nama zihari"
+  },
+  "soil": {
+    "title": "Imicungire y'ubutaka",
+    "phLevel": "Urwego rwa pH",
+    "nutrients": "Intungamubiri",
+    "recommendations": "Inama"
+  },
+  "profile": {
+    "title": "Umwirondoro",
+    "name": "Izina",
+    "phone": "Telefoni",
+    "location": "Ahantu",
+    "landAcres": "Ubutaka (acres)",
+    "cooperative": "Koperative"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Retry",
+    "save": "Save",
+    "cancel": "Cancel",
+    "back": "Back",
+    "submit": "Submit",
+    "offline": "You are offline",
+    "syncing": "Syncing..."
+  },
+  "auth": {
+    "login": "Sign In",
+    "logout": "Sign Out",
+    "phone": "Phone Number",
+    "password": "Password",
+    "loginButton": "Sign In",
+    "loginError": "Invalid phone or password",
+    "welcome": "Welcome to AgriSmart"
+  },
+  "home": {
+    "title": "Home",
+    "greeting": "Hello, {{name}}",
+    "quickActions": "Quick Actions",
+    "plantingAdvisory": "Planting Advisory",
+    "pestDiagnosis": "Pest Diagnosis",
+    "finance": "Finance",
+    "soilManagement": "Soil Management"
+  },
+  "pest": {
+    "title": "Pest Diagnosis",
+    "library": "Pest Library",
+    "reportPest": "Report Pest",
+    "takePhoto": "Take Photo",
+    "choosePhoto": "Choose from Gallery",
+    "submitting": "Submitting report...",
+    "submitted": "Report submitted successfully",
+    "myReports": "My Reports",
+    "status": {
+      "PENDING": "Pending",
+      "ANALYZED": "Analyzed",
+      "RESOLVED": "Resolved"
+    },
+    "severity": {
+      "LOW": "Low",
+      "MEDIUM": "Medium",
+      "HIGH": "High",
+      "CRITICAL": "Critical"
+    }
+  },
+  "finance": {
+    "title": "Finance",
+    "recordExpense": "Record Expense",
+    "recordSale": "Record Sale",
+    "summary": "Financial Summary",
+    "amount": "Amount (RWF)",
+    "description": "Description",
+    "category": "Category",
+    "season": "Season",
+    "date": "Date",
+    "totalRevenue": "Total Revenue",
+    "totalExpenses": "Total Expenses",
+    "netProfit": "Net Profit",
+    "categories": {
+      "SEEDS": "Seeds",
+      "FERTILIZER": "Fertilizer",
+      "PESTICIDE": "Pesticide",
+      "LABOR": "Labor",
+      "TRANSPORT": "Transport",
+      "OTHER": "Other"
+    }
+  },
+  "advisory": {
+    "title": "Advisory",
+    "inbox": "Advisory Inbox",
+    "noAdvisories": "No advisories yet"
+  },
+  "soil": {
+    "title": "Soil Management",
+    "phLevel": "pH Level",
+    "nutrients": "Nutrients",
+    "recommendations": "Recommendations"
+  },
+  "profile": {
+    "title": "Profile",
+    "name": "Name",
+    "phone": "Phone",
+    "location": "Location",
+    "landAcres": "Land (acres)",
+    "cooperative": "Cooperative"
+  }
+}

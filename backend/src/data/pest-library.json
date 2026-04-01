@@ -1,0 +1,202 @@
+[
+  {
+    "id": "pest-1",
+    "name": "Bean Common Mosaic Virus (BCMV)",
+    "localNameKinyarwanda": "Indwara ya Mozayike y'Ibishyimbo",
+    "type": "VIRAL",
+    "symptoms": [
+      "Mosaic pattern of light and dark green on leaves",
+      "Leaf curling and distortion",
+      "Stunted plant growth and reduced leaf size",
+      "Yellowing between leaf veins (interveinal chlorosis)",
+      "Pods may be few, small, and discolored"
+    ],
+    "treatment": [
+      "Remove and destroy infected plants immediately to prevent spread",
+      "Apply insecticides (imidacloprid or thiamethoxam) to control aphid vectors",
+      "Use reflective mulch to deter aphids from landing on plants"
+    ],
+    "prevention": [
+      "Plant certified virus-free and BCMV-resistant bean varieties (e.g. RWR 2245)",
+      "Control aphid populations with regular monitoring and targeted spraying",
+      "Avoid planting near infected fields or other legume crops"
+    ],
+    "severityLevel": "HIGH",
+    "imageDescription": "Leaves show irregular mosaic pattern with patches of light green and dark green. Leaves are smaller than normal, puckered, and curled downward. Plants are noticeably stunted compared to healthy plants."
+  },
+  {
+    "id": "pest-2",
+    "name": "Angular Leaf Spot (Pseudocercospora griseola)",
+    "localNameKinyarwanda": "Amatako y'Amababi y'Ibishyimbo",
+    "type": "FUNGAL",
+    "symptoms": [
+      "Water-soaked angular lesions on leaves bounded by leaf veins",
+      "Lesions turn brown to grey with a reddish-brown border",
+      "Infected leaves turn yellow and drop prematurely",
+      "Dark brown streaks on stems and pods",
+      "White-grey powdery fungal growth visible on lesions under humid conditions"
+    ],
+    "treatment": [
+      "Apply copper-based fungicides (copper oxychloride or copper hydroxide) at first sign of disease",
+      "Spray mancozeb or chlorothalonil every 7-10 days during wet conditions",
+      "Remove and destroy heavily infected plant debris to reduce inoculum"
+    ],
+    "prevention": [
+      "Use certified disease-free or resistant bean seed varieties (e.g. MAC 44, CODMLB 001)",
+      "Practice crop rotation — avoid growing beans in the same field for 2 consecutive seasons",
+      "Ensure adequate plant spacing (30cm x 50cm) for good air circulation"
+    ],
+    "severityLevel": "MEDIUM",
+    "imageDescription": "Lesions are angular or rectangular in shape, sharply delimited by leaf veins, turning from water-soaked to a grey-brown colour. In humid weather, a grey powdery sporulation is visible on the underside of leaves."
+  },
+  {
+    "id": "pest-3",
+    "name": "Bean Rust (Uromyces appendiculatus)",
+    "localNameKinyarwanda": "Ibyunguru by'Ibishyimbo",
+    "type": "FUNGAL",
+    "symptoms": [
+      "Small, circular, reddish-brown pustules (uredinia) on undersides of leaves",
+      "Corresponding pale yellow spots on the upper leaf surface",
+      "Heavy infection causes yellowing and premature leaf drop",
+      "Pustules may also appear on stems and pods",
+      "White ring of tissue surrounds each pustule in early infection"
+    ],
+    "treatment": [
+      "Apply triazole fungicides (tebuconazole or propiconazole) at early disease onset",
+      "Use mancozeb or sulfur-based fungicide sprays every 10-14 days",
+      "Remove and burn severely infected crop material to reduce spore load"
+    ],
+    "prevention": [
+      "Use rust-resistant bean varieties registered in Rwanda (e.g. RWV 3006, Lyamungu 85)",
+      "Avoid overhead irrigation which creates leaf wetness that promotes spore germination",
+      "Monitor fields regularly from flowering stage onwards for early detection"
+    ],
+    "severityLevel": "MEDIUM",
+    "imageDescription": "Numerous small circular pustules appear on leaf undersides with a powdery, rust-red to brown spore mass. Upper leaf surfaces show corresponding chlorotic yellow spots. Heavy infections cause a rusted appearance and severe defoliation."
+  },
+  {
+    "id": "pest-4",
+    "name": "Anthracnose (Colletotrichum lindemuthianum)",
+    "localNameKinyarwanda": "Anthracnose y'Ibishyimbo",
+    "type": "FUNGAL",
+    "symptoms": [
+      "Dark brown to black lesions along the veins on the underside of leaves",
+      "Reddish-brown sunken cankers on stems and pods",
+      "Infected pods develop dark, circular sunken spots with salmon-pink spore masses",
+      "Seeds become discolored or shrivel within infected pods",
+      "Seedling death (damping-off) in severe early infection"
+    ],
+    "treatment": [
+      "Apply carbendazim or thiophanate-methyl fungicide at 7-day intervals during wet weather",
+      "Use copper-based fungicides as a protectant spray before and during rainy periods",
+      "Remove and destroy all infected plant material including crop debris after harvest"
+    ],
+    "prevention": [
+      "Always use certified anthracnose-free seed from reputable agro-dealers",
+      "Treat seeds with thiram or captan seed dressing before planting",
+      "Avoid working in the field when plants are wet to prevent mechanical spread"
+    ],
+    "severityLevel": "HIGH",
+    "imageDescription": "Pods show dark, sunken, circular lesions with a distinctive pink to salmon-coloured gelatinous spore mass in humid conditions. Veins on the underside of leaves turn dark brown or black. Stems develop elongated brown cankers."
+  },
+  {
+    "id": "pest-5",
+    "name": "Bean Stem Maggot (Ophiomyia spp.)",
+    "localNameKinyarwanda": "Inzoka z'Ikibabi cy'Ibishyimbo",
+    "type": "INSECT",
+    "symptoms": [
+      "Minute yellow egg-laying punctures visible on young leaves",
+      "Leaf mining tunnels visible as pale serpentine lines in leaves",
+      "Stem tunnelling causing wilting, yellowing, and plant death",
+      "Swollen stem base with larvae visible when split open",
+      "Sudden collapse of apparently healthy young plants (stem girdling stage)"
+    ],
+    "treatment": [
+      "Apply systemic insecticides such as dimethoate or imidacloprid at early signs of attack",
+      "Drench the base of plants with lambda-cyhalothrin to kill larvae in stems",
+      "Pull up and destroy collapsed plants to prevent adult emergence and further spread"
+    ],
+    "prevention": [
+      "Treat seed with thiamethoxam or imidacloprid seed dressing to protect young seedlings",
+      "Plant early in the season when fly populations are lower",
+      "Intercrop beans with non-host crops (maize, sorghum) to reduce pest density"
+    ],
+    "severityLevel": "HIGH",
+    "imageDescription": "Young plants wilt suddenly despite adequate soil moisture. Stems show swelling and discoloration at the base. Splitting the stem reveals white legless maggots tunnelling inside. Leaf mines appear as pale winding trails in the leaf tissue."
+  },
+  {
+    "id": "pest-6",
+    "name": "Aphids",
+    "localNameKinyarwanda": "Udusimba",
+    "type": "INSECT",
+    "symptoms": [
+      "Colonies of small, soft-bodied insects clustered on growing tips and undersides of leaves",
+      "Leaves curl downward or inward around aphid colonies",
+      "Sticky honeydew deposits on leaves leading to black sooty mould growth",
+      "Distorted and stunted new growth",
+      "Yellowing of heavily infested leaves"
+    ],
+    "treatment": [
+      "Spray insecticidal soap solution (2% concentration) directly onto aphid colonies",
+      "Apply pyrethroid insecticides (cypermethrin) or neonicotinoids (imidacloprid) for severe infestations",
+      "Introduce or conserve natural enemies such as ladybird beetles and parasitic wasps"
+    ],
+    "prevention": [
+      "Inspect plants regularly, especially growing tips, for early aphid colonies",
+      "Avoid excessive nitrogen fertilisation which produces soft succulent growth attractive to aphids",
+      "Use reflective aluminium mulch to deter winged aphids from colonising plants"
+    ],
+    "severityLevel": "MEDIUM",
+    "imageDescription": "Dense colonies of tiny (1-3mm) green, black, or brown soft-bodied insects cluster on shoot tips and undersides of leaves. Leaves near colonies appear yellow, curled, and distorted. A sticky shiny residue (honeydew) covers affected leaf surfaces."
+  },
+  {
+    "id": "pest-7",
+    "name": "Whitefly",
+    "localNameKinyarwanda": "Inzige Zera",
+    "type": "INSECT",
+    "symptoms": [
+      "Tiny white-winged adult flies rising in clouds when plants are disturbed",
+      "Pale yellow stippling on upper leaf surfaces from nymph feeding",
+      "Sticky honeydew secretion leading to sooty mould on leaves",
+      "Yellowing and premature drop of heavily infested leaves",
+      "Reduced plant vigour and stunted growth under heavy infestation"
+    ],
+    "treatment": [
+      "Apply imidacloprid, spiromesifen, or buprofezin insecticide at first detection",
+      "Use yellow sticky traps to monitor and reduce adult populations",
+      "Spray neem oil solution (2-3%) on undersides of leaves where nymphs feed"
+    ],
+    "prevention": [
+      "Install fine insect-proof netting (50-mesh) over seedbeds and young transplants",
+      "Intercrop with strongly scented plants (basil, marigold) to repel whiteflies",
+      "Remove and destroy crop residues promptly after harvest to eliminate breeding sites"
+    ],
+    "severityLevel": "MEDIUM",
+    "imageDescription": "Clouds of tiny (1mm) white moth-like insects fly up when plants are disturbed. Undersides of leaves are covered with flat, scale-like yellow to white nymphs. Upper leaf surfaces show yellow spotting and a shiny, sticky coating from honeydew."
+  },
+  {
+    "id": "pest-8",
+    "name": "Root Rot (Pythium/Fusarium)",
+    "localNameKinyarwanda": "Indwara y'Imizi y'Ibishyimbo",
+    "type": "FUNGAL",
+    "symptoms": [
+      "Reddish-brown discoloration and decay of the tap root and lower stem",
+      "Wilting and yellowing of leaves despite adequate soil moisture",
+      "Stunted plant growth with poor pod and seed set",
+      "Brown or black streaking visible when roots are examined",
+      "In severe cases, complete collapse and death of seedlings (damping-off)"
+    ],
+    "treatment": [
+      "Apply metalaxyl or mefenoxam drenches around the base of affected plants",
+      "Improve field drainage immediately by creating furrows or raised beds to reduce waterlogging",
+      "Remove and destroy severely affected plants to prevent soil-borne spore spread"
+    ],
+    "prevention": [
+      "Treat seed with metalaxyl + thiram seed dressing (e.g. Apron Star) before planting",
+      "Avoid planting in poorly drained or waterlogged soils; use raised beds where necessary",
+      "Practice a minimum 3-year crop rotation, avoiding all legumes on infected plots"
+    ],
+    "severityLevel": "HIGH",
+    "imageDescription": "Roots show reddish-brown to black rotting that extends up the lower stem. The cortex slips off the central root cylinder easily. Above-ground, plants wilt irreversibly even when watered. Seedlings may collapse at or just below the soil surface."
+  }
+]
