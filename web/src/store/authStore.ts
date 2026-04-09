@@ -17,6 +17,16 @@ export const useAuthStore = create<AuthState>()(
         set({ user, accessToken, refreshToken, isAuthenticated: true });
       },
 
+      register: async (data: {
+        name: string; phone: string; password: string; role: string;
+        location: { lat: number; lng: number; region: string };
+        farmSize?: number; soilType?: string;
+      }) => {
+        const res = await api.post('/auth/register', data);
+        const { user, accessToken, refreshToken } = res.data.data;
+        set({ user, accessToken, refreshToken, isAuthenticated: true });
+      },
+
       logout: () => {
         try {
           const raw = localStorage.getItem('auth-storage');

@@ -14,6 +14,11 @@ export interface AuthState {
   refreshToken: string | null;
   isAuthenticated: boolean;
   login: (phone: string, password: string) => Promise<void>;
+  register: (data: {
+    name: string; phone: string; password: string; role: string;
+    location: { lat: number; lng: number; region: string };
+    farmSize?: number; soilType?: string;
+  }) => Promise<void>;
   logout: () => void;
 }
 
