@@ -56,7 +56,13 @@ export function LoginPage() {
     setLoginLoading(true);
     try {
       await login(loginPhone, loginPassword);
-      navigateByRole(useAuthStore.getState().user?.role, navigate);
+      const role = useAuthStore.getState().user?.role;
+      if (role === 'FARMER') {
+        useAuthStore.getState().logout();
+        setLoginError('The web portal is for officers, leaders, and admins only. Farmers should use the AgriSmart mobile app.');
+        return;
+      }
+      navigateByRole(role, navigate);
     } catch (err: unknown) {
       const msg = (err as { response?: { data?: { error?: { message?: string } } } })
         ?.response?.data?.error?.message;
@@ -74,6 +80,11 @@ export function LoginPage() {
     if (!region) { setSignupError('Please select your region.'); return; }
     if (password !== confirmPassword) { setSignupError('Passwords do not match.'); return; }
     if (password.length < 6) { setSignupError('Password must be at least 6 characters.'); return; }
+
+    if (role === 'FARMER') {
+      setSignupError('The web portal is for officers, leaders, and admins only. Farmers should use the AgriSmart mobile app.');
+      return;
+    }
 
     setSignupLoading(true);
     try {

@@ -4,6 +4,7 @@ import cors from 'cors';
 import helmet from 'helmet';
 import compression from 'compression';
 
+import weatherRoutes from './routes/weather.routes';
 import authRoutes from './routes/auth.routes';
 import advisoryRoutes from './routes/advisory.routes';
 import pestRoutes from './routes/pest.routes';
@@ -45,6 +46,7 @@ app.get('/health', (_req: Request, res: Response) => {
 // API routes
 // ─────────────────────────────────────────────────────────────────
 
+app.use('/api/weather', weatherRoutes);
 app.use('/api/auth', authRoutes);
 app.use('/api/advisory', advisoryRoutes);
 app.use('/api/pest', pestRoutes);
