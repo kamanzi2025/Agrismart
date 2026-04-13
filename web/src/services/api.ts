@@ -1,6 +1,9 @@
 import axios from 'axios';
 
-const BASE_URL = (import.meta as Record<string, any>).env?.VITE_API_URL ?? '/api';
+const BASE_URL = (import.meta as Record<string, any>).env?.VITE_API_URL
+  ?? (typeof window !== 'undefined' && window.location.hostname !== 'localhost'
+      ? 'https://agrismart-4fcn.onrender.com/api'
+      : '/api');
 
 export const api = axios.create({
   baseURL: BASE_URL,
