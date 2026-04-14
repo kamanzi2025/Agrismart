@@ -1,11 +1,20 @@
 import jwt from 'jsonwebtoken';
 import { AuthUser } from '../types';
 
-const ACCESS_SECRET = process.env.JWT_SECRET!;
-const REFRESH_SECRET = process.env.JWT_REFRESH_SECRET!;
-
 const ACCESS_EXPIRES = '24h';
 const REFRESH_EXPIRES = '7d';
+
+function getAccessSecret(): string {
+  const secret = process.env.JWT_SECRET;
+  if (!secret) throw new Error('JWT_SECRET environment variable is not set');
+  return secret;
+}
+
+function getRefreshSecret(): string {
+  const secret = process.env.JWT_REFRESH_SECRET;
+  if (!secret) throw new Error('JWT_REFRESH_SECRET environment variable is not set');
+  return secret;
+}
 
 /**
  * In-memory refresh token store.
@@ -20,7 +29,7 @@ const refreshTokenStore = new Map<string, string>();
 export function signAccessToken(user: AuthUser): string {
   return jwt.sign(
     { id: user.id, role: user.role, phone: user.phone },
-    ACCESS_SECRET,
+    getAccessSecret(),
     { expiresIn: ACCESS_EXPIRES }
   );
 }
@@ -31,7 +40,7 @@ export function signAccessToken(user: AuthUser): string {
 export function signRefreshToken(user: AuthUser): string {
   const token = jwt.sign(
     { id: user.id, role: user.role, phone: user.phone },
-    REFRESH_SECRET,
+    getRefreshSecret(),
     { expiresIn: REFRESH_EXPIRES }
   );
   refreshTokenStore.set(token, user.id);
@@ -43,7 +52,7 @@ export function signRefreshToken(user: AuthUser): string {
  * Throws if invalid or expired.
  */
 export function verifyAccessToken(token: string): AuthUser {
-  const payload = jwt.verify(token, ACCESS_SECRET) as jwt.JwtPayload;
+  const payload = jwt.verify(token, getAccessSecret()) as jwt.JwtPayload;
   return { id: payload.id, role: payload.role, phone: payload.phone };
 }
 
@@ -54,7 +63,7 @@ export function verifyAccessToken(token: string): AuthUser {
 export function verifyRefreshToken(token: string): AuthUser | null {
   try {
     if (!refreshTokenStore.has(token)) return null;
-    const payload = jwt.verify(token, REFRESH_SECRET) as jwt.JwtPayload;
+    const payload = jwt.verify(token, getRefreshSecret()) as jwt.JwtPayload;
     return { id: payload.id, role: payload.role, phone: payload.phone };
   } catch {
     return null;
